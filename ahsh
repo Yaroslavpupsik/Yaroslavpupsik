@@ -1,0 +1,17 @@
+# Створюємо змінні
+hello_world = "Hello world"
+first_name = "Ярослав"
+last_name = "Грищук"
+age = 16
+
+# Порівнюємо типи даних для імені та прізвища
+if type(first_name) == type(last_name):
+    print(f"Тип даних імені та прізвища: {type(first_name)}")
+
+# Створюємо список з іменем і прізвищем
+name_list = [first_name, last_name]
+print(f"Список з іменем і прізвищем: {' '.join(name_list)}")
+
+# Перевіряємо тип даних віку і порівнюємо
+if type(age) == int:
+    print(f"Тип даних віку: {type(age)}")
