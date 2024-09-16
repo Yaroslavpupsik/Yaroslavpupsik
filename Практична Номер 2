@@ -1,0 +1,13 @@
+hello_world = "Hello world"
+first_name = "Ярослав"
+last_name = "Грищук"
+age = 16
+
+if type(first_name) == type(last_name):
+    print(f"Тип даних імені та прізвища: {type(first_name)}")
+
+name_list = [first_name, last_name]
+print(f"Список з іменем і прізвищем: {' '.join(name_list)}")
+
+if type(age) == int:
+    print(f"Тип даних віку: {type(age)}")
